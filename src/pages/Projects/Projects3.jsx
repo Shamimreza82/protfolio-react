@@ -15,7 +15,7 @@ const Projects3 = () => {
                        </a>
                     </div>
                     <div>
-                        <h1 className="text-2xl py-4 text-slate-700 font-semibold">Hotel Booking app <span className="text-base text-gray-500">(October-2023)</span></h1>
+                        <h1 className="text-2xl py-4 text-slate-700 font-semibold">Brand Shop app<span className="text-base text-gray-500">(October-2023)</span></h1>
                         This project is a Hotel Booking Web Application that aims to provide users with a seamless experience in booking hotel accommodations. It offers various features and functionalities that enhance user interaction and ensure a smooth booking process.
                        
                         <div className="flex gap-20 py-7">
