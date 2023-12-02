@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 
 const Navber = () => {
   return (
-    <div className="drawer ">
+    <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col  ">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-100 shadow-gray-200 shadow-md py-2 md:py-5">
+        <div className="w-full navbar bg-base-100 bg-opacity-50 shadow-gray-200 shadow-md py-2 md:py-5">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -32,7 +32,7 @@ const Navber = () => {
             Reza.dev
           </div>
           <div className="flex-none hidden lg:block">
-            <ul className="menu menu-horizontal gap-5 pr-8 text-base font-bold text-[#2d2e32]">
+            <ul className="menu menu-horizontal gap-6 pr-12 text-base font-bold text-zinc-700">
               {/* Navbar menu content here */}
               <NavLink
                 to="/"

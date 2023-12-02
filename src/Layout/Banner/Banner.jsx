@@ -3,34 +3,38 @@ import { LiaLinkedin, LiaGithub } from "react-icons/lia";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
+import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className="max-w-7xl m-auto">
-      <div className="hero  ">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={photo} className=" w-96 rounded-full shadow-2xl" />
+    <div className="bannerBg ">
+      <div className=" max-w-7xl m-auto min-h-screen md:py-16 flex justify-center items-center px-4 ">
+      <div>
+        <div className="">
+        <div className=" flex justify-center gap-0 items-center flex-col lg:flex-row-reverse">
+          <div className="md:w-[25%]">
+                <img src={photo} className="rounded-full border-green-600 border-4 shadow-2xl " />
+          </div>
           <div>
-            <h1 className="md:text-[55px] text-[35px]  md:leading-[55px] font-bold text-[#2d2e32]">
-              Front-End React <br /> Developer
+            <h1 className="md:text-[55px] text-[35px]  md:leading-[66px] font-bold text-[#2d2e32]">
+              Front-End React <br />    <span className="font-light">Developer</span>
             </h1>
-            <p className="py-6 w-[65%] font-Mulish  text-[#555555] text-[19px] leading-[29px]">
+            <p className="py-6 md:w-[65%] font-Mulish  text-[#555555] text-[19px] leading-[29px]">
               Hi, I'm Shamim Reza. A passionate Front-end React Developer based
               in Dhaka, Bangladesh.
             </p>
             <div className="flex text-4xl space-x-2">
-              <LiaLinkedin className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32]"></LiaLinkedin>
-              <LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32]"></LiaGithub>
+              <a href=""><LiaLinkedin className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32] animate-bounce"></LiaLinkedin></a>
+              <a href="https://github.com/Shamimreza82" target="new"><LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32] animate-bounce"></LiaGithub></a>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex gap-6 items-center">
-        <p className="text-xl w-32 border-r-4 ml-8 font-bold text-[#555555]">
-          {" "}
+      <div className="flex flex-col md:flex-row gap-6 items-center md:ml-16 mt-5">
+        <p className="text-xl w-32 border-r-4  font-bold text-[#555555]">
           Tech Stack
         </p>
-        <div className="flex gap-5 text-5xl ">
+        <div className="flex gap-5 flex-wrap text-5xl ">
           <div className="tooltip" data-tip="HTML">
           <FaHtml5 className="hover:scale-110 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"></FaHtml5>
           </div>
@@ -55,7 +59,9 @@ const Banner = () => {
           </div>
         </div>
       </div>
+      </div>
     </div>
+    </div> 
   );
 };
 

@@ -1,6 +1,8 @@
-import { Outlet } from "react-router-dom";
+
 import Navber from "../../Layout/Navber/Navber";
 import Banner from "../../Layout/Banner/Banner";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
 
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
         <div>
             <Navber></Navber>
             <Banner></Banner>
+            <About></About>
+            <Projects></Projects>
         </div>
     );
 };
