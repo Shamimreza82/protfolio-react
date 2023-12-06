@@ -4,9 +4,9 @@ import img from "../../assets/fernando-hernandez-JdoofvUDUwc-unsplash.jpg";
 
 const About = () => {
   return (
-    <div className=" bg flex md:py-24">
+    <div className=" bg md:flex md:flex-reverse md:py-24">
       <div className="md:w-1/2 flex justify-center">
-        <img className="h-full" src={img} alt="" />
+        <img  src={img} alt="" />
       </div>
       <div className="w-1/2 flex flex-col justify-center ml-7">
         <h1 className=" text-2xl font-bold text-justify">ABOUT ME</h1>
