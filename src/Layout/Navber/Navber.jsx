@@ -16,7 +16,7 @@ const Navber = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <>
+    <div className="bg-black" >
       {isOpen && (
         <div className="absolute h-screen z-30 bg-[#CCCD34] w-full">
           <div className="flex justify-between p-9">
@@ -94,7 +94,7 @@ const Navber = () => {
         </div>
       )}
 
-      <div className="drawer bg-black relative">
+      <div className="drawer max-w-7xl m-auto bg-black relative">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 
         <div className="drawer-content flex flex-col">
@@ -203,7 +203,7 @@ const Navber = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
