@@ -9,7 +9,10 @@ export default {
       'Poppins': ['Poppins', 'sans-seri'],
       'Mulish': ['Mulish', 'sans-seri'],
       
-    }
+    },
+    // colors: {
+    //   'secondary' : ['#CCCD34']
+    // }
   },
   plugins: [require("daisyui")],
 }

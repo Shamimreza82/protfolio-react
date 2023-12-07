@@ -7,25 +7,25 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <div className="bannerBg ">
-      <div className=" max-w-7xl m-auto min-h-screen md:py-16 flex justify-center items-center px-4 ">
+    <div className="bg-black">
+      <div className=" max-w-7xl m-auto min-h-screen md:py-16 flex justify-center items-center px-4">
       <div>
         <div className="">
         <div className=" flex justify-center gap-0 items-center flex-col lg:flex-row-reverse">
-          <div className="md:w-[25%]">
-                <img src={photo} className="rounded-full border-green-600 border-4 shadow-2xl " />
+          <div className="md:w-[25%] w-[60%]  duration-700">
+                <img src={photo} className="p-3 rounded-full hover:rounded-ss-[25px] duration-500 border-[#CCCD34]  border-4 shadow-2xl"/>
           </div>
           <div>
-            <h1 className="md:text-[55px] text-[35px]  md:leading-[66px] font-bold text-[#2d2e32]">
-              Front-End React <br />    <span className="font-light">Developer</span>
+            <h1 className="md:text-[55px] text-[35px]  md:leading-[66px] font-bold text-white">
+              Full Stack Developer <br />    <span className="font-light">MERN</span>
             </h1>
-            <p className="py-6 md:w-[65%] font-Mulish  text-[#555555] text-[19px] leading-[29px]">
+            <p className="py-6 md:w-[65%] font-Mulish  text-white text-[19px] leading-[29px]">
               Hi, I'm Shamim Reza. A passionate Front-end React Developer based
               in Dhaka, Bangladesh.
             </p>
             <div className="flex text-4xl space-x-2">
-              <a href=""><LiaLinkedin className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32] animate-bounce"></LiaLinkedin></a>
-              <a href="https://github.com/Shamimreza82" target="new"><LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#2d2e32] animate-bounce"></LiaGithub></a>
+              <a href=""><LiaLinkedin className="hover:scale-110 duration-300 hover:text-green-600 text-[#CCCD34] animate-bounce"></LiaLinkedin></a>
+              <a href="https://github.com/Shamimreza82" target="new"><LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#CCCD34] animate-bounce"></LiaGithub></a>
             </div>
           </div>
         </div>
