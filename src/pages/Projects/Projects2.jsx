@@ -8,12 +8,12 @@ const Projects2 = () => {
         <div className='px-3 mt-24'>
              <Container>
                 <div className="md:flex items-center gap-10">
-                    <div>
+                    <div className="w-[50%]">
                        <a href="https://swiftstay-931f1.web.app" target="new">
-                       <img className="rounded-md shadow-md hover:scale-105 duration-300" src={project2} alt="" />
+                       <img className="rounded-md shadow-md hover:scale-105 duration-300 " src={project2} alt="" />
                        </a>
                     </div>
-                    <div>
+                    <div className="w-[50%]">
                         <h1 className="text-2xl py-4 text-slate-700 font-semibold">Hotel Booking app <span className="text-base text-gray-500">(October-2023)</span></h1>
                         This project is a Hotel Booking Web Application that aims to provide users with a seamless experience in booking hotel accommodations. It offers various features and functionalities that enhance user interaction and ensure a smooth booking process.
                        

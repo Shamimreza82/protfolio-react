@@ -1,12 +1,11 @@
-
-import img from "../../assets/fernando-hernandez-JdoofvUDUwc-unsplash.jpg";
+import img from '../../assets/images/about.jpg'
 
 
 const About = () => {
   return (
-    <div className=" bg md:flex md:flex-reverse md:py-24">
+    <div className="md:flex md:py-24 max-w-7xl m-auto">
       <div className="md:w-1/2 flex justify-center">
-        <img  src={img} alt="" />
+        <img className='rounded-md w-3/4'  src={img} alt="" />
       </div>
       <div className="w-1/2 flex flex-col justify-center ml-7">
         <h1 className=" text-2xl font-bold text-justify">ABOUT ME</h1>
