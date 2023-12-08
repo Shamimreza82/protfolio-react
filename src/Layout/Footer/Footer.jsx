@@ -8,7 +8,7 @@ const Footer = () => {
             Let’s Build web application <br />
             together?
           </h1>
-          <button className="btn">Contact</button>
+          <button className="text-white border hover:text-black duration-500 border-red-600 px-4 py-2 hover:bg-[#CCCD34] hover:border-none">Contact</button>
         </div>
         <div>
           <h1 className="text-3xl text-white font-semibold">

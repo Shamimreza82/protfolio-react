@@ -1,13 +1,21 @@
 import photo from "../../assets/base.jpg";
 import { LiaLinkedin, LiaGithub } from "react-icons/lia";
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
-import { BiLogoJavascript } from "react-icons/bi";
-import { SiTailwindcss, SiExpress, SiMongodb } from "react-icons/si";
 import "./Banner.css";
+import html from "../../assets/images/html.png";
+import css from "../../assets/images/css.png";
+import javaScript from "../../assets/images/javascript.png";
+import tailwind from "../../assets/images/tailwind.png";
+import mongodb from "../../assets/images/mongodb.png";
+import react from "../../assets/images/react.png";
+import express from "../../assets/images/express.png";
+import node from "../../assets/images/node.png";
+import Navber from "../Navber/Navber";
+
 
 const Banner = () => {
   return (
-    <div className="bg-black ">
+    <div className="bg-black bannerBg">
+      <Navber></Navber>
       <div className="max-w-7xl m-auto">
         <div className="max-w-7xl m-auto min-h-screen md:py-14 flex justify-center items-center px-4">
           <div>
@@ -39,32 +47,67 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row gap-6 items-center md:ml-16 mt-5">
-              <p className="text-xl w-32 border-r-4  font-bold text-[#555555]">
+            <div className="flex flex-col md:flex-row gap-6 items-center md:ml-8 mt-5">
+              <p className="text-xl w-32 border-r-4 border-[#CCCD34]  font-bold text-white">
                 Tech Stack
               </p>
               <div className="flex gap-5 flex-wrap text-5xl ">
                 <div className="tooltip" data-tip="HTML">
-                  <FaHtml5 className="hover:scale-110 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"></FaHtml5>
+                  <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={html}
+                    alt=""
+                  />
                 </div>
                 <div className="tooltip" data-tip="CSS">
-                  <FaCss3Alt className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></FaCss3Alt>
+                  <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={css}
+                    alt=""
+                  />
                 </div>
                 <div className="tooltip" data-tip="Tailwind CSS">
-                  <SiTailwindcss className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></SiTailwindcss>
+                <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={tailwind}
+                    alt=""
+                  />
                 </div>
                 <div className="tooltip" data-tip="javaScript">
-                  <BiLogoJavascript className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></BiLogoJavascript>
+                <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={javaScript}
+                    alt=""
+                  />
                 </div>
                 <div className="tooltip" data-tip="React">
-                  <FaReact className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></FaReact>
+                  <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={react}
+                    alt=""
+                  />
                 </div>
                 <div className="tooltip" data-tip="Express">
-                  <SiExpress className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></SiExpress>
+                <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={express}
+                    alt=""
+                  />
+                </div>
+                <div className="tooltip" data-tip="Node">
+                <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={node}
+                    alt=""
+                  />
                 </div>
 
                 <div className="tooltip " data-tip="MongoDB">
-                  <SiMongodb className="hover:scale-110 hover:translate-y-2  duration-300 hover:text-green-600 text-[#2d2e32]"></SiMongodb>
+                <img
+                    className="hover:scale-110 h-16 hover:translate-y-2 duration-300 hover:text-green-600 text-[#2d2e32]"
+                    src={mongodb}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
