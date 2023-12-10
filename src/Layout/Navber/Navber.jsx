@@ -39,7 +39,7 @@ const Navber = () => {
                 >
                   Home
                 </Link>
-                
+
                 <Link
                   activeClass="active"
                   to="about"
@@ -86,7 +86,17 @@ const Navber = () => {
                   shamimrezaone@gmail.com
                 </p>
                 <button className="border-2 px-3 py-2 hover:bg-black hover:text-white hover:duration-500 border-gray-950 text-black font-semibold">
-                  Contact Me
+                  
+                  <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                  >
+                    Contact Me
+                  </Link>
                 </button>
               </div>
             </div>
@@ -126,7 +136,6 @@ const Navber = () => {
             </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal gap-6 pr-12 text-base font-bold text-white">
-                
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
