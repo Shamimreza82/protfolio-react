@@ -121,7 +121,7 @@ const Navber = () => {
                 </svg>
               </label>
             </div>
-            <div className="flex-1 px-2 mx-2 font-bold text-xl hover:tracking-[8px] duration-500 text-white pl-8">
+            <div className="flex-1 flex justify-end md:justify-start px-2 mx-2 font-bold text-xl hover:tracking-[8px] duration-500 text-white pl-8">
               Reza.dev
             </div>
             <div className="flex-none hidden lg:block">
@@ -180,11 +180,11 @@ const Navber = () => {
           </div>
           {/* Page content here */}
         </div>
-        <div className="drawer-side z-50 h-full ">
+        <div className="drawer-side  z-50 h-full">
           <label
             htmlFor="my-drawer-3"
             aria-label="close sidebar"
-            className="drawer-overlay"
+            className="drawer-overlay "
           ></label>
           <ul className="menu p-4 w-80 min-h-full bg-[#CCCD34]">
             {/* Sidebar content here */}

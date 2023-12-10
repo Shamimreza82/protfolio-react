@@ -10,6 +10,7 @@ import react from "../../assets/images/react.png";
 import express from "../../assets/images/express.png";
 import node from "../../assets/images/node.png";
 import Navber from "../Navber/Navber";
+import PdfDewonlode from "../../Component/Sheared/PdfDewonlode";
 
 
 const Banner = () => {
@@ -33,7 +34,7 @@ const Banner = () => {
                     <span className="font-light">MERN</span>
                   </h1>
                   <p className="py-6 md:w-[65%] font-Mulish  text-white text-[19px] leading-[29px]">
-                    Hi, I'm Shamim Reza. A passionate Front-end React Developer
+                    Hi, I'm Shamim Reza. A passionate full Stack Developer(MERN)
                     based in Dhaka, Bangladesh.
                   </p>
                   <div className="flex text-4xl space-x-2">
@@ -43,6 +44,9 @@ const Banner = () => {
                     <a href="https://github.com/Shamimreza82" target="new">
                       <LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#CCCD34] animate-bounce"></LiaGithub>
                     </a>
+                  </div>
+                  <div className="mt-3" >
+                    <PdfDewonlode></PdfDewonlode>
                   </div>
                 </div>
               </div>

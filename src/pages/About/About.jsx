@@ -10,8 +10,8 @@ const About = () => {
           </div>
           <div className="w-1/2 flex flex-col justify-center ml-7">
             <h1 className=" text-2xl font-bold text-justify">ABOUT ME</h1>
-            <h2 className="text-2xl my-2">A dedicated Front-end Developer <br /> based in Dhaka, Bangladesh </h2>
-            <p>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+            <h2 className="text-2xl my-2">A dedicated Full Stack Developer(MERN) </h2>
+            <p>I'm Shamim Reza, a dedicated MERN Stack developer, seasoned in Full-Stack Development with over 4 successful projects under my belt. Ready to dive into new opportunities, I'm eager to showcase my skills and innovation on Github. Let's connect and explore how my creativity can drive your company's growth through dedicated responsibilities.</p>
           </div>
         </div>
     </div>
