@@ -17,19 +17,28 @@ const Banner = () => {
   return (
     <div className="bg-black bannerBg">
       <Navber></Navber>
-      <div className="max-w-7xl m-auto md:-mt-20">
+      <div className="max-w-7xl m-auto md:-mt-12">
         <div className="max-w-7xl m-auto min-h-screen md:py-14 flex justify-center items-center px-4">
           <div>
             <div>
               <div className="flex justify-center md:gap-16 gap-4 items-center flex-col lg:flex-row-reverse">
-                <div className="md:w-[25%] w-[60%]  duration-700">
+                <div
+                  className="md:w-[25%] w-[60%]  duration-700"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
                   <img
                     src={photo}
                     className="p-3 rounded-full hover:rounded-ss-[25px] duration-500 border-[#CCCD34]  border-4 shadow-2xl"
                   />
                 </div>
                 <div>
-                  <h1 className="md:text-[55px] text-[24px] text-center md:text-left  md:leading-[66px] font-bold text-white">
+                  <h1
+                    className="md:text-[55px] text-[24px] text-center md:text-left  md:leading-[66px] font-bold text-white"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="center-center"
+                  >
                     Full Stack Web
                   </h1>
 
@@ -41,14 +50,21 @@ const Banner = () => {
                     based in Dhaka, Bangladesh.
                   </p>
                   <div className="flex text-4xl space-x-2">
-                    <a href="">
+                    <a
+                      href="https://www.linkedin.com/in/shamim--reza/"
+                      target="blank"
+                    >
                       <LiaLinkedin className="hover:scale-110 duration-300 hover:text-green-600 text-[#CCCD34] animate-bounce"></LiaLinkedin>
                     </a>
                     <a href="https://github.com/Shamimreza82" target="new">
                       <LiaGithub className="hover:scale-110 duration-300 hover:text-green-600 text-[#CCCD34] animate-bounce"></LiaGithub>
                     </a>
                   </div>
-                  <div className="md:mt-10 mt-4">
+                  <div
+                    className="md:mt-10 mt-4"
+                    data-aos="flip-up"
+                    data-aos-duration="1000"
+                  >
                     <PdfDewonlode></PdfDewonlode>
                   </div>
                 </div>

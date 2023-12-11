@@ -21,7 +21,7 @@ const Navber = () => {
       {isOpen && (
         <div className="absolute h-screen z-30 bg-[#CCCD34] w-full">
           <div className="flex justify-between max-w-7xl m-auto p-9  px-14">
-          <div className="flex-1 flex justify-end md:justify-start px-2 mx-2 font-light text-xl hover:tracking-[8px] duration-500 text-black pl-8">
+            <div className="flex-1 flex justify-end md:justify-start px-2 mx-2 font-light text-xl hover:tracking-[8px] duration-500 text-black pl-8">
               Reza.dev
             </div>
             <button onClick={() => setIsOpen(false)}>
@@ -38,8 +38,9 @@ const Navber = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  onClick={() => setIsOpen(false)}
                   className="text-5xl over font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                >
+                  >
                   Home
                 </Link>
 
@@ -50,8 +51,9 @@ const Navber = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                >
+                  >
                   About
                 </Link>
                 <Link
@@ -61,8 +63,9 @@ const Navber = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                >
+                  >
                   Projects
                 </Link>
                 <Link
@@ -72,13 +75,20 @@ const Navber = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block"
-                >
+              >
                   Contact
                 </Link>
               </div>
               <div className="space-y-6 w-[500px]">
-                <h1 className="text-4xl font-semibold text-black pb-6">
+                <h1
+                  className="text-4xl font-semibold text-black pb-6"
+                  data-aos="fade-left"
+                  data-aos-anchor="#example-anchor"
+                  data-aos-offset="500"
+                  data-aos-duration="500"
+                >
                   Let’s find solutions together?
                 </h1>
                 <p className="text-black text-xl">
@@ -88,16 +98,16 @@ const Navber = () => {
                 <p className="hover:tracking-[3px] pb-5 text-xl text-black duration-500">
                   shamimrezaone@gmail.com
                 </p>
-                <button className="border-2 pt px-6 py-2 hover:bg-black hover:text-white hover:duration-500 border-gray-950 text-black font-semibold">
-                  
+                <button >
                   <Link
+                  className="border-2 pt px-6 py-2 hover:bg-black hover:text-white hover:duration-500 border-gray-950 text-black font-semibold"
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={500}
-                  >
+                    data-aos="zoom-out-up">
                     Contact Me
                   </Link>
                 </button>

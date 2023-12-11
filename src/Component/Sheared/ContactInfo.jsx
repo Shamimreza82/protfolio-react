@@ -35,7 +35,7 @@ const ContactInfo = () => {
   };
 
   return (
-    <div id="contact" className="bg-[#CCCD34]  text-black  py-10">
+    <div id="contact" className="bg-[#CCCD34]  text-black  py-24">
       <div className="md:flex max-w-7xl m-auto gap-20 px-4">
         <div className="md:w-[50%] space-y-4">
           <h2 className="text-3xl">Lets,s Find Solution Together? </h2>
@@ -51,21 +51,21 @@ const ContactInfo = () => {
           <form ref={form} onSubmit={sendEmail}>
             <label className="block">Name</label>
             <input
-              className="md:w-full py-1 mb-4 text-black w-full"
+              className="md:w-full py-1 mb-4 px-2 text-black w-full"
               type="text"
               name="user_name"
               required
             />
             <label className="block">Email</label>
             <input
-              className="md:w-full py-1 mb-4 text-black w-full"
+              className="md:w-full py-1 mb-4 px-2 text-black w-full"
               type="email"
               name="user_email"
               required
             />
             <label className="block ">Message</label>
             <textarea
-              className="block md:w-full text-black w-full "
+              className="block md:w-full h-28 px-2 text-black w-full "
               name="message"
               required
             />

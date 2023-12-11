@@ -14,7 +14,7 @@ const Projects2 = () => {
                 className="rounded-md shadow-md hover:scale-105 duration-300 "
                 src={project2}
                 alt=""
-              />
+                data-aos="zoom-in"/>
             </a>
           </div>
           <div className="md:w-[50%]">
@@ -32,7 +32,7 @@ const Projects2 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center mb-3 gap-2 hover:scale-105 duration-300"
                   href="https://swiftstay-931f1.web.app"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p>Live Demo </p>
                   <FiExternalLink className="inline-flex "></FiExternalLink>
                 </a>
@@ -42,7 +42,7 @@ const Projects2 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 mb-3 hover:scale-105 duration-300"
                   href="https://github.com/Shamimreza82/swift-stay-hotel-booking-app-client"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p className="hover:text-black  ">Client Code</p>
                   <FaGithub className="inline-flex "></FaGithub>
                 </a>
@@ -52,7 +52,7 @@ const Projects2 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 hover:scale-105 duration-300"
                   href="https://github.com/Shamimreza82/swift-stay-hotel-booking-app-server"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p className="hover:text-black  ">Server Code</p>
                   <FaGithub className="inline-flex "></FaGithub>
                 </a>

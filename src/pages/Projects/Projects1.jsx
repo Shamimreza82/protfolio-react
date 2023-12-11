@@ -19,12 +19,12 @@ const Projects1 = () => {
         </div>
         <div className="md:flex items-center md:gap-14">
           <div className="md:w-[45%]">
-            <a href="https://blood-donation-28936.web.app/" target="new">
+            <a href="https://blood-donation-28936.web.app/" target="new" >
               <img
                 className="rounded-md shadow-md hover:scale-105 duration-300"
                 src={project}
                 alt=""
-              />
+                data-aos="zoom-in"/>
             </a>
           </div>
           <div className="md:w-[50%]">
@@ -49,7 +49,7 @@ const Projects1 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center mb-3 gap-2 hover:scale-105 duration-300"
                   href="https://blood-donation-28936.web.app/"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p>Live Demo </p>
                   <FiExternalLink className="inline-flex "></FiExternalLink>
                 </a>
@@ -59,7 +59,7 @@ const Projects1 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 mb-3 hover:scale-105 duration-300"
                   href="https://github.com/Shamimreza82/Blood-donation-app-client"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p className="hover:text-black  ">Client Code</p>
                   <FaGithub className="inline-flex "></FaGithub>
                 </a>
@@ -69,7 +69,7 @@ const Projects1 = () => {
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 hover:scale-105 duration-300"
                   href="https://github.com/Shamimreza82/Blood-donation-app-server"
                   target="new"
-                >
+                  data-aos="zoom-in">
                   <p className="hover:text-black  ">Server Code</p>
                   <FaGithub className="inline-flex "></FaGithub>
                 </a>
