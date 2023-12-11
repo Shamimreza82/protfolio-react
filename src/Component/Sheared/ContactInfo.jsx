@@ -35,10 +35,10 @@ const ContactInfo = () => {
   };
 
   return (
-    <div id="contact" className="bg-black text-white my-10 py-10">
+    <div id="contact" className="bg-[#CCCD34]  text-black  py-10">
       <div className="md:flex max-w-7xl m-auto gap-20 px-4">
-        <div className="md:w-[50%]">
-          <h2>Lets,s Find Solution Together? </h2>
+        <div className="md:w-[50%] space-y-4">
+          <h2 className="text-3xl">Lets,s Find Solution Together? </h2>
           <p>Contact</p>
           <p>
             Fill in the form or just use my contacts below. ‍If you need to put
@@ -51,26 +51,26 @@ const ContactInfo = () => {
           <form ref={form} onSubmit={sendEmail}>
             <label className="block">Name</label>
             <input
-              className="md:w-[70%] py-1 mb-4 text-black w-full"
+              className="md:w-full py-1 mb-4 text-black w-full"
               type="text"
               name="user_name"
               required
             />
             <label className="block">Email</label>
             <input
-              className="md:w-[70%] py-1 mb-4 text-black w-full"
+              className="md:w-full py-1 mb-4 text-black w-full"
               type="email"
               name="user_email"
               required
             />
             <label className="block ">Message</label>
             <textarea
-              className="block md:w-[70%] text-black w-full "
+              className="block md:w-full text-black w-full "
               name="message"
               required
             />
             <input
-              className="text-white border mt-4 hover:text-black duration-500 border-red-600 px-4 py-2 hover:bg-[#CCCD34] hover:border-none"
+              className="text-black border mt-4 hover:text-white hover:border-black duration-500 border-red-600 px-4 py-2 hover:bg-black hover:border-none"
               type="submit"
               value="Send"
             />

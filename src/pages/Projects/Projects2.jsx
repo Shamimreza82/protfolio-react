@@ -26,11 +26,11 @@ const Projects2 = () => {
             users with a seamless experience in booking hotel accommodations. It
             offers various features and functionalities that enhance user
             interaction and ensure a smooth booking process.
-            <div className="md:flex md:gap-6 gap-4 py-10 ">
+            <div className="md:flex md:gap-6 gap-4 py-10">
               <div>
                 <a
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center mb-3 gap-2 hover:scale-105 duration-300"
-                  href="https://blood-donation-28936.web.app/"
+                  href="https://swiftstay-931f1.web.app"
                   target="new"
                 >
                   <p>Live Demo </p>
@@ -40,7 +40,7 @@ const Projects2 = () => {
               <div>
                 <a
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 mb-3 hover:scale-105 duration-300"
-                  href="https://github.com/Shamimreza82/Blood-donation-app-client"
+                  href="https://github.com/Shamimreza82/swift-stay-hotel-booking-app-client"
                   target="new"
                 >
                   <p className="hover:text-black  ">Client Code</p>
@@ -50,7 +50,7 @@ const Projects2 = () => {
               <div>
                 <a
                   className="flex px-3 py-1 border hover:bg-[#CCCD34] hover:border-[#CCCD34] hover:text-black  border-red-600  justify-center items-center gap-2 hover:scale-105 duration-300"
-                  href="https://github.com/Shamimreza82/Blood-donation-app-server"
+                  href="https://github.com/Shamimreza82/swift-stay-hotel-booking-app-server"
                   target="new"
                 >
                   <p className="hover:text-black  ">Server Code</p>
