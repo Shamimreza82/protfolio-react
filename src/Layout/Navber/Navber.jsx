@@ -40,7 +40,7 @@ const Navber = () => {
                   duration={500}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl over font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                  >
+                >
                   Home
                 </Link>
 
@@ -53,7 +53,7 @@ const Navber = () => {
                   duration={500}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                  >
+                >
                   About
                 </Link>
                 <Link
@@ -65,7 +65,7 @@ const Navber = () => {
                   duration={500}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block cursor-pointer"
-                  >
+                >
                   Projects
                 </Link>
                 <Link
@@ -77,7 +77,7 @@ const Navber = () => {
                   duration={500}
                   onClick={() => setIsOpen(false)}
                   className="text-5xl font-semibold hover:tracking-[18px] text-black duration-500 block"
-              >
+                >
                   Contact
                 </Link>
               </div>
@@ -98,16 +98,17 @@ const Navber = () => {
                 <p className="hover:tracking-[3px] pb-5 text-xl text-black duration-500">
                   shamimrezaone@gmail.com
                 </p>
-                <button >
+                <button>
                   <Link
-                  className="border-2 pt px-6 py-2 hover:bg-black hover:text-white hover:duration-500 border-gray-950 text-black font-semibold"
+                    className="border-2 pt px-6 py-2 hover:bg-black hover:text-white hover:duration-500 border-gray-950 text-black font-semibold"
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={500}
-                    data-aos="zoom-out-up">
+                    data-aos="zoom-out-up"
+                  >
                     Contact Me
                   </Link>
                 </button>
@@ -117,7 +118,7 @@ const Navber = () => {
         </div>
       )}
 
-      <div className="drawer max-w-7xl m-auto relative ">
+      <div className="drawer max-w-7xl m-auto relative  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 
         <div className="drawer-content flex flex-col ">
@@ -195,7 +196,7 @@ const Navber = () => {
                   Contact
                 </Link> */}
                 <button onClick={() => setIsOpen(!isOpen)}>
-                  <CgMenuRightAlt className="text-4xl hover:text-[#CCCD34] hover:scale-125 duration-300  duration-300 font-bold"></CgMenuRightAlt>
+                  <CgMenuRightAlt className="text-4xl hover:text-[#CCCD34] hover:scale-125 duration-300 font-bold"></CgMenuRightAlt>
                 </button>
               </ul>
             </div>
@@ -208,20 +209,55 @@ const Navber = () => {
             aria-label="close sidebar"
             className="drawer-overlay "
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-[#CCCD34]">
-            {/* Sidebar content here */}
-            <li>
-              <a className="text-3xl font-semibold ">Home</a>
-            </li>
-            <li>
-              <a className="text-3xl font-semibold ">About</a>
-            </li>
-            <li>
-              <a className="text-3xl font-semibold ">Projects</a>
-            </li>
-            <li>
-              <a className="text-3xl font-semibold ">Contact</a>
-            </li>
+          <ul className="menu p-4 w-60 min-h-full bg-[#CCCD34]">
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#CCCD34] text-2xl mb-2  duration-300 cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+            >
+              Projects
+            </Link>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+            >
+              Contact
+            </Link>
           </ul>
         </div>
       </div>

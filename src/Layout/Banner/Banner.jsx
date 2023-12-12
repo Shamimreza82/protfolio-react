@@ -70,7 +70,7 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row md:gap-6 gap-3 py-5 items-center md:ml-8 md:mt-14 mt-3">
+            <div className="flex flex-col md:flex-row md:gap-6 gap-3  items-center md:ml-8 md:mt-14 mt-3">
               <p className="text-xl w-32 border-r-4 border-[#CCCD34]  font-bold text-white">
                 Tech Stack
               </p>
