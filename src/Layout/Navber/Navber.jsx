@@ -150,51 +150,6 @@ const Navber = () => {
             </div>
             <div className="flex-none hidden lg:block">
               <ul className="menu menu-horizontal gap-6 pr-12 text-base font-bold text-white">
-                {/* <NavLink
-                  to="/"
-                  className={({ isActive, isPending }) =>
-                    isPending
-                      ? "pending"
-                      : isActive
-                      ? "active"
-                      : "  hover:text-[#CCCD34]  duration-300 cursor-pointer "
-                  }
-                >
-                  Home
-                </NavLink>
-                <Link
-                  activeClass="active"
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="hover:text-[#CCCD34]  duration-300 cursor-pointer"
-                >
-                  About
-                </Link>
-                <Link
-                  activeClass="active"
-                  to="projects"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="hover:text-[#CCCD34]  duration-300 cursor-pointer"
-                >
-                  Projects
-                </Link>
-                <Link
-                  activeClass="active"
-                  to="contact"
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
-                  className="hover:text-[#CCCD34]  duration-300 cursor-pointer"
-                >
-                  Contact
-                </Link> */}
                 <button onClick={() => setIsOpen(!isOpen)}>
                   <CgMenuRightAlt className="text-4xl hover:text-[#CCCD34] hover:scale-125 duration-300 font-bold"></CgMenuRightAlt>
                 </button>
