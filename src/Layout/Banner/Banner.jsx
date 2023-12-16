@@ -12,6 +12,7 @@ import node from "../../assets/images/node.png";
 import Navber from "../Navber/Navber";
 import PdfDewonlode from "../../Component/Sheared/PdfDewonlode";
 import { CgScrollV } from "react-icons/cg";
+import Amination from "./Amination";
 
 const Banner = () => {
   return (
@@ -41,6 +42,7 @@ const Banner = () => {
                   >
                     Full Stack Web
                   </h1>
+                  <Amination></Amination>
 
                   <h1 className="md:text-[55px] mt-2 text-[24px] text-center md:text-left  md:leading-[66px] font-bold text-white">
                     Developer <span className=" font-thin">(MERN) </span> <br />{" "}
