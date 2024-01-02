@@ -40,15 +40,14 @@ const Banner = () => {
                     data-aos="fade-up"
                     data-aos-anchor-placement="center-center"
                   >
-                    Full Stack Web
+                    Font End Web
                   </h1>
-                  <Amination></Amination>
 
                   <h1 className="md:text-[55px] mt-2 text-[24px] text-center md:text-left  md:leading-[66px] font-bold text-white">
-                    Developer <span className=" font-thin">(MERN) </span> <br />{" "}
+                    Developer 
                   </h1>
                   <p className="py-8 md:w-[65%] font-Mulish  text-white text-[19px] leading-[29px]">
-                    Hi, I'm Shamim Reza. A passionate full Stack Developer(MERN)
+                    Hi, I'm Shamim Reza. A passionate Font End Web Developer
                     based in Dhaka, Bangladesh.
                   </p>
                   <div className="flex text-4xl space-x-2">
