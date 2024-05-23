@@ -1,5 +1,4 @@
 
-import Navber from "../../Layout/Navber/Navber";
 import Banner from "../../Layout/Banner/Banner";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
@@ -15,7 +14,6 @@ const Home = () => {
             <Projects></Projects>
             <Contact></Contact>
             <Footer></Footer>
-           
         </div>
     );
 };
