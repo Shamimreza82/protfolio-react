@@ -120,7 +120,6 @@ const Navber = () => {
 
       <div className="drawer max-w-7xl m-auto relative  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-
         <div className="drawer-content flex flex-col ">
           {/* Navbar */}
           <div className="w-full navbar  py-2 md:py-5">
@@ -158,13 +157,15 @@ const Navber = () => {
           </div>
           {/* Page content here */}
         </div>
-        <div className="drawer-side  z-50 h-full">
+        <div className="drawer-side z-50 h-full">
           <label
             htmlFor="my-drawer-3"
             aria-label="close sidebar"
             className="drawer-overlay "
           ></label>
-          <ul className="menu p-4 w-60 min-h-full bg-[#CCCD34]">
+          <ul className="menu p-4 w-64 min-h-full bg-[#CCCD34]">
+            <h3 className="flex justify-center text-lg">Reza.dev</h3>
+            <hr className="mb-7 my-2" />
             <Link
               activeClass="active"
               to="home"
@@ -173,7 +174,7 @@ const Navber = () => {
               offset={50}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="hover:text-[#CCCD34] text-2xl mb-2  duration-300 cursor-pointer"
+              className="hover:bg-[#a7a739] text-2xl hover:rounded-md p-1 mb-2  duration-300 cursor-pointer"
             >
               Home
             </Link>
@@ -185,7 +186,7 @@ const Navber = () => {
               offset={50}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+              className="hover:bg-[#a7a739] text-2xl hover:rounded-md p-1 mb-2  duration-300 cursor-pointer"
             >
               About
             </Link>
@@ -197,7 +198,7 @@ const Navber = () => {
               offset={50}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+              className="hover:bg-[#a7a739] text-2xl hover:rounded-md p-1 mb-2  duration-300 cursor-pointer"
             >
               Projects
             </Link>
@@ -209,7 +210,7 @@ const Navber = () => {
               offset={50}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="hover:text-[#CCCD34] text-2xl mb-2   duration-300 cursor-pointer"
+              className="hover:bg-[#a7a739] text-2xl hover:rounded-md p-1 mb-2  duration-300 cursor-pointer"
             >
               Contact
             </Link>
