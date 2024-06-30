@@ -118,6 +118,8 @@ const Navber = () => {
         </div>
       )}
 
+      {/* ------------------------------------- */}
+
       <div className="drawer max-w-7xl m-auto relative  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col ">
@@ -148,7 +150,24 @@ const Navber = () => {
               Reza.dev
             </div>
             <div className="flex-none hidden lg:block">
-              <ul className="menu menu-horizontal gap-6 pr-12 text-base font-bold text-white">
+
+              <ul className="menu menu-horizontal gap-4 pr-12 text-base font-bold text-white">
+                <NavLink
+                  to="/blog"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : "mt-1"
+                  }
+                >
+                  Blog
+                </NavLink>
+                <NavLink
+                  to="/login"
+                  className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "active" : "mt-1"
+                  }
+                >
+                  Login
+                </NavLink>
                 <button onClick={() => setIsOpen(!isOpen)}>
                   <CgMenuRightAlt className="text-4xl hover:text-[#CCCD34] hover:scale-125 duration-300 font-bold"></CgMenuRightAlt>
                 </button>
